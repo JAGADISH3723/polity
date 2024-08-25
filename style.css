@@ -127,3 +127,12 @@ table, th, td{
     position: relative;
     text-align: center;
 }
+/* Example of a simple media query */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%;
+  }
+}
