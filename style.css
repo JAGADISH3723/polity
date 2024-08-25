@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(' https://w7.pngwing.com/pngs/453/99/png-transparent-indian-plate-sri-lanka-himalayas-indian-ocean-world-map-miscellaneous-globe-india.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+     
+}
+
+.menu-bar {
+    background-color: #333;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.menu-bar .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: skyblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: none;
+    z-index: 999;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.state-content {
+    margin-top: 20px;
+}
+
+.floating-flag {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.floating-flag img {
+    width: 50px;
+}
+/* Ensure the menu-container has a fixed height */
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the menu is above other content */
+}
+
+/* Style the menu */
+.menu {
+    max-height: 400px; /* Set a maximum height to trigger scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: skyblue;
+    display: none; /* Hide by default */
+    position: absolute;
+    top: 50px; /* Adjust based on your menu bar height */
+    left: 0;
+    width: 250px;
+    border: 1px solid black;
+    z-index: 1001; /* Ensure the menu is above other content */
+}
+
+/* Style for the links */
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.map-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    
+}
+
+.map-container {
+    position: relative;
+    text-align: center;
+}
