@@ -1,4 +1,4 @@
- // Toggle menu visibility when the menu bar icon is clicked
+  // Toggle menu visibility when the menu bar icon is clicked
 document.getElementById('menu-bar').addEventListener('click', function(event) {
     event.stopPropagation();
     var menu = document.getElementById('menu');
@@ -51,3 +51,16 @@ document.getElementById('menu').addEventListener('mouseleave', function() {
         document.getElementById('menu').style.display = 'none';
     }, 1000); // Adjust delay as needed
 });
+
+/**
+ * -----------------------------------------------
+ * This map was created using amCharts Map Editor.
+ *
+ * To create your own map visit:
+ * https://pixelmap.amcharts.com/
+ *
+ * For more information on amCharts visit:
+ * https://www.amcharts.com/
+ * -----------------------------------------------
+ */
+ 
