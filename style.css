@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://wallpapercave.com/wp/wp6715251.jpg');
+    background-image: url( );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,19 +14,23 @@ body {
 }
 
 .menu-bar {
-    background-color: #333;
-    padding: 10px;
+    background-color: #f3eeee;
+    padding: 5px;
     cursor: pointer;
     position: fixed;
-    top: 10px;
+    right:200%;
+    top: 100px;
     left: 10px;
     z-index: 1000;
+    text-transform: initial;
+    
 }
+ 
 
 .menu-bar .bar {
-    width: 25px;
+    width: 20px;
     height: 3px;
-    background-color: #fff;
+    background-color: #1a0e0e;
     margin: 5px 0;
 }
 
@@ -104,7 +108,7 @@ body {
 .menu a {
     display: block;
     padding: 10px;
-    text-decoration: none;
+    text-decoration:none;
     color: #000;
     border-bottom: 1px solid #ccc;
 }
@@ -112,9 +116,20 @@ body {
 .menu a:hover {
     background-color: #ddd;
 }
-table, th, td{
-    border: 3px solid black;
+table {
     border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+td {
+    text-align: center;
 }
 .map-container img {
     max-width: 100%;
